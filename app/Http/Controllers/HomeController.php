@@ -12,8 +12,4 @@ class HomeController extends Controller
     public function ip(){
         return view('ip');
     }
-
-    public function sudo(){
-        return view('sudo');
-    }
 }
